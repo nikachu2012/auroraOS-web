@@ -1,0 +1,1 @@
+const jsFrame = new JSFrame();

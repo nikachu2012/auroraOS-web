@@ -1,0 +1,27 @@
+@import url('./header.css');
+@import url('./menu.css');
+
+html,
+body {
+    width: 100vw;
+    height: 100vh;
+
+    overflow: hidden;
+}
+
+.auroraOS {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+
+    background-image: url('../../assets/wallpaper/wallpaper1.png');
+    background-size: cover;
+}
+
+.body{
+    position: relative;
+}
+
+.flex {
+    display: flex;
+}

@@ -1,0 +1,84 @@
+.header {
+    width: 100vw;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    color: white;
+
+    font-size: 1.5vh;
+    line-height: 0;
+
+    position: relative;
+}
+
+.left {
+    height: 30px;
+
+    position: absolute;
+    left: 0%;
+}
+
+.right {
+    height: 30px;
+
+    position: absolute;
+    right: 0%;
+
+    display: flex;
+    align-items: center;
+}
+
+.header .header_menu {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    appearance: none;
+
+    color: white;
+
+    height: 30px;
+
+    padding: 0px 5px;
+
+    font-size: 14px;
+}
+
+.header .header_menu:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.wakeru {
+    height: 30px;
+    border-left: 1px solid gray;
+}
+
+.header_task {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    appearance: none;
+
+    color: white;
+    height: 30px;
+
+    padding: 0px 5px;
+
+    display: flex;
+    align-items: center;
+
+}
+
+.header_task img {
+    height: 15px;
+    pointer-events: none;
+}
+
+.header_task span {
+    margin-left: 5px;
+}
+
+.header_task:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}

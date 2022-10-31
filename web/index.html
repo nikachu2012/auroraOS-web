@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite App</title>
+
+  <link rel="stylesheet" href="src/css/normalize.css">
+  <link rel="stylesheet" href="src/css/main.css">
+  
+</head>
+
+<body>
+  <div class="auroraOS">
+    <div class="header">
+      <div class="left">
+        <div class="flex">
+          <button class="header_menu" id="button_menu">menu</button>
+          <div class="wakeru"></div>
+          <div id="tasklist" class="flex"></div>
+          <!-- <button class="header_task">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Google_Chrome_icon_%28February_2022%29.svg/48px-Google_Chrome_icon_%28February_2022%29.svg.png"
+              alt="com.google.chrome">
+            <span>task1</span>
+          </button> -->
+        </div>
+      </div>
+      <div class="right">
+        aa
+      </div>
+    </div>
+    <div class="body">
+      <div class="menu">
+        <div class="menu-contents-nohover">Application</div>
+        <div id="applicationList"></div>       
+        <div class="menu-contents-nohover" style="margin-top: 5px;">Setting</div>
+        <div class="menu-contents">Setting</div>
+        <div class="menu-contents-nohover" style="margin-top: 5px;">Power</div>
+        <div class="menu-contents">Shutdown</div>
+        <div class="menu-contents">Reboot</div>
+      </div>
+    </div>
+
+    
+  </div>
+
+  <script src="config.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jsframe.js/lib/jsframe.min.js"></script>
+  <script src="src/js/windowControll.js"></script>
+
+  <script src="src/js/menu.js"></script>
+
+  <script src="src/js/runSoftware.js"></script>
+  <script src="./application/iframeBrowser/init.js"></script>
+  <script src="./application/Calculator/init.js"></script>
+
+  <script>
+    document.oncontextmenu = () => { return false; }
+  </script>
+</body>
+
+</html>
