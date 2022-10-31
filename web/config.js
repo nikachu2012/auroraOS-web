@@ -1,0 +1,5 @@
+const auroraOSConfig = {
+    app: [
+        'iframeBrowser',
+    ],
+}
